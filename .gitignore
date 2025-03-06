@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-dist
 tmp
 /out-tsc
 
@@ -40,24 +39,6 @@ Thumbs.db
 
 .nx/cache
 .nx/workspace-data
-
-# Expo
-node_modules/
-.expo/
-.yarn/
-dist/
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
-cache/
-
-# Turbo
-.turbo
 
 .env
 

@@ -14,8 +14,11 @@ Create a `__mocks__/react-native-unistyles.js` in your project root.
 // require your theme directly
 const theme = require('path/to/theme');
 
-// This is assuming you do support typescript transpile, I didn't transpile to js in this repo
+// If you download the code, this is assuming you do support typescript transpile, I didn't transpile to js in this repo
 const { createUniStylesMock } = require('path/to/unistyles-mock');
+
+// if you use npm/pnpm/yarn
+const { createUniStylesMock } = require('unistyles-mock');
 
 module.exports = createUniStylesMock(theme);
 ```
